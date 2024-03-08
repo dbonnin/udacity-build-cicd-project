@@ -23,8 +23,8 @@ jobs:
         node-version: latest
     - name: Print a message
       run: echo "Hello, world!"
-#     - name: Install dependencies
-#       run: cd backend && npm ci
+    - name: Install dependencies
+      run: cd solution/backend && npm ci
 #     - name: Run tests
 #       run: cd frontend && npm test        
 #     - name: Run lint
