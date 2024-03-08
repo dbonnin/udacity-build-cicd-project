@@ -12,14 +12,14 @@ on:
 
 jobs:
   build_and_test:
-  runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Set up Node.js 
-        uses: actions/setup-node@v3
-          with:
-          node-version: latest  
+    runs-on: ubuntu-latest
+      steps:
+        - name: Checkout code
+          uses: actions/checkout@v3
+        - name: Set up Node.js 
+          uses: actions/setup-node@v3
+            with:
+            node-version: latest  
 #     - name: Install dependencies
 #       run: cd backend && npm ci
 #     - name: Run tests
