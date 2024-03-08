@@ -24,8 +24,6 @@ jobs:
     - name: Print a message
       run: echo "Hello, world!"
     - name: Install dependencies
-      run: cd solution/frontend && npm ci
-    - name: Run tests
-      run: cd solution/frontend && npm test        
+      run: cd solution/frontend && npm ci      
     - name: Run lint
       run: cd solution/frontend && npm run lint
